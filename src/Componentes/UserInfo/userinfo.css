@@ -1,0 +1,35 @@
+.container-user-infos {
+    background-color: #2d3566;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+}
+.user-infos {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.user-image img {
+    border-radius: 50%;
+    border: 4px solid #5D52E5;
+}
+.user-follow {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.user-repo {
+    margin: auto;
+    background-color: #5D52E5;
+    padding: 13px;
+    width: 100%;
+    transition: all 0.5ms ease-out;
+}
+.user-repo:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

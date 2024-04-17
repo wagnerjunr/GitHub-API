@@ -1,0 +1,29 @@
+.container-search{
+    background-color: #2d3566;
+    width: 500px;
+    margin: 30px 0 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+
+.container-search p{
+    color:rgb(255, 255, 255,0.4);
+}
+.search-forms input{
+    color: black;
+    padding: 5px;
+    margin-right: 5px;
+}
+.search-forms button{
+    padding: 5px;
+    background-color: #0e1129;
+}
+
+.search-forms button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+
+}
